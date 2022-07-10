@@ -15,7 +15,7 @@ Condition: O(n), without division
 // rightProduct = [24, 12, 4, 1]
 // result = left * right => [24, 12, 8, 6]
 
-var productExceptSelf = function(nums) {
+function productExceptSelf(nums) {
     let leftProduct = [];
     let rightProduct = [];
     let result = [];
