@@ -13,7 +13,7 @@ const target = 9;
 // }
 // ----------------------------------------------
 
-// optimized way is below:
+// optimized way:
 function twoSum(nums, target) {
     let memory = {};
     for (let i = 0; i < nums.length; i++) {
